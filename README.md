@@ -1,38 +1,38 @@
-# 🎮 Video Game Sales EDA
+# Video Game Sales EDA
 
-## 📌 Objective
-This project performs an **Exploratory Data Analysis (EDA)** on the **Video Game Sales** dataset to uncover trends, insights, and patterns related to video game sales globally, across various genres, platforms, and regions. The dataset spans from 1980 to 2020.
+## Objective
+This project involves performing an Exploratory Data Analysis (EDA) on the Video Game Sales dataset. The goal is to identify patterns, trends, and insights related to global game sales across various platforms, genres, and regions between 1980 and 2020.
 
-## 📊 Dataset
-- The dataset contains data on:
-  - Global and regional sales
-  - Platforms
-  - Publishers
-  - Genres
-  - Release years
-- 📂 **Source**: [Kaggle - Video Game Sales Dataset](https://www.kaggle.com/datasets/gregorut/videogamesales)
+## Dataset
+The dataset contains information on:
+- Sales figures (global and regional)
+- Platforms and publishers
+- Game genres
+- Release years
 
-## 🔍 Key Insights
-- 🎮 **Top Genres**: *Action* and *Sports* dominate global sales.
-- 📈 **Sales Peak**: Global sales peaked in **2008–2009**, likely due to major console/game releases.
-- 🕹️ **Platform Trends**: *PS2*, *X360*, and *Wii* were the most successful platforms during their prime.
-- 🌍 **Regional Impact**: North America leads in game sales, followed by Europe and Japan.
+**Source**: [Kaggle - Video Game Sales Dataset](https://www.kaggle.com/datasets/gregorut/videogamesales)
 
-## 📈 Visualizations
-- Global Sales Distribution (Histogram & Boxplot)
-- Top Publishers by Global Sales
-- Genre and Platform Trends Over Time
-- Correlation Heatmap between features
-- Year-wise Sales Breakdown
+## Key Insights
+- Action and Sports genres consistently lead in global sales.
+- Global sales peaked around 2008–2009, likely due to major game and console launches.
+- Platforms such as PS2, X360, and Wii dominated during their respective peak years.
+- North America contributes the most to total global sales, followed by Europe and Japan.
 
-## 🛠 Tools Used
-- Python: `pandas`, `matplotlib`, `seaborn`, `plotly`
+## Visualizations
+The analysis includes:
+- Histograms and boxplots for sales distributions
+- Year-wise and genre-wise trend plots
+- Publisher-wise sales comparisons
+- Correlation heatmap between sales regions and features
+
+## Tools Used
+- Python (Pandas, Matplotlib, Seaborn, Plotly)
 - Google Colab for running and sharing the notebook
 
-## ▶️ How to Run
-1. Clone this repo or open the notebook in [Google Colab](https://colab.research.google.com/).
-2. Upload `vgsales.csv` or download it from Kaggle.
-3. Run all cells to reproduce the full analysis and visualizations.
+## How to Run
+1. Clone this repository or open the notebook in Google Colab.
+2. Upload the dataset (`vgsales.csv`) or download it from the Kaggle link above.
+3. Run the notebook cells in order to generate the visualizations and insights.
 
-## ✅ Conclusion
-This EDA highlights how **brand influence**, **regional popularity**, and **genre/platform choices** shape the global video game market. These insights can help guide game developers and marketers in understanding trends and consumer behavior.
+## Conclusion
+This analysis provides a snapshot of the video game industry's sales performance over several decades. It highlights the influence of popular platforms, the dominance of certain genres, and the role of regional markets in shaping global trends.
